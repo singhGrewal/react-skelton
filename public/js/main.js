@@ -19725,24 +19725,6 @@ module.exports = List;
 
 },{"./ListItem.jsx":169,"react":167}],169:[function(require,module,exports){
 var React = require('react');
-var ListItem = require.createClass({
-
-	render: function () {
-		return React.createElement(
-			'li',
-			null,
-			React.createElement(
-				'h4',
-				null,
-				this.props.ingredients
-			)
-		);
-	}
-});
-
-module.exports = ListItem;
-
-var React = require('react');
 var ListItem = React.createClass({
 	displayName: 'ListItem',
 
